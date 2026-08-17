@@ -121,7 +121,7 @@ Wichtig: `-i` (stdin offen halten für stdio) und — wenn vdl auf demselben Hos
 | Variable | Standard | Bedeutung |
 |---|---|---|
 | `VDL_URL` | `http://localhost:8000` | Basis-URL deiner vdl-Instanz |
-| `VDL_TOKEN` | *(leer)* | vdl-API-Token (erforderlich) |
+| `VDL_TOKEN` | *(leer)* | vdl-MCP-Token (aus dem MCP-Reiter) |
 | `VDL_MCP_READ_ONLY` | `false` | **Not-Aus**: nur Lese-Tools (kein download/transcribe/delete/bulk) |
 | `VDL_MCP_ALLOW_READ` | `true` | resolve/list/status/get_transcript |
 | `VDL_MCP_ALLOW_DOWNLOAD` | `true` | download |

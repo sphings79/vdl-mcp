@@ -43,7 +43,7 @@ A disabled group is **invisible** to the assistant.
 ## Requirements
 
 - A running **[vdl](https://github.com/sphings79/vdl)** instance.
-- An **API token**: in vdl go to **Settings → API token → create**, and copy it.
+- An **MCP token**: in vdl open the **MCP tab → create token** and copy it. This token is **scoped** — it may only perform the MCP actions you enable there (write/delete tools respect the toggles and read-only mode, everything else is refused server-side), so it's safer than the general API token.
 
 ## Install
 
@@ -121,7 +121,7 @@ Note the `-i` (keep stdin open for stdio) and, when vdl runs on the same host, `
 | Variable | Default | Meaning |
 |---|---|---|
 | `VDL_URL` | `http://localhost:8000` | Base URL of your vdl instance |
-| `VDL_TOKEN` | *(empty)* | vdl API token (required) |
+| `VDL_TOKEN` | *(empty)* | vdl MCP token (from the MCP tab) |
 | `VDL_MCP_READ_ONLY` | `false` | **Kill switch**: expose only read tools (no download/transcribe/delete/bulk) |
 | `VDL_MCP_ALLOW_READ` | `true` | resolve/list/status/get_transcript |
 | `VDL_MCP_ALLOW_DOWNLOAD` | `true` | download |
