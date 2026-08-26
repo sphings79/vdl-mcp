@@ -144,6 +144,15 @@ Every tool is tagged in its description — **[read]**, **[writes]** or **[delet
 - Downloading an **arbitrary URL** on an assistant's request has a prompt-injection surface. Set `VDL_MCP_DOMAIN_ALLOWLIST` (e.g. `youtube.com,instagram.com`) to restrict it.
 - Only for content you own or have the rights/permission to download — the same [disclaimer](https://github.com/sphings79/vdl#disclaimer) as vdl applies.
 
+---
+
+## ☕ Support
+
+These tools are built and maintained in my free time, and they stay free, open and cloud-free.
+If one of them saved you an afternoon, you can [buy me a coffee](https://buymeacoffee.com/sphings).
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-sphings-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/sphings)
+
 ## License
 
 **GNU Affero General Public License v3.0** (AGPL-3.0) — see [LICENSE](LICENSE). © 2026 sphings79
