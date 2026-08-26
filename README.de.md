@@ -144,6 +144,15 @@ Jedes Tool ist in seiner Beschreibung getaggt — **[read]**, **[writes]** oder 
 - Eine **beliebige URL** auf Zuruf des Assistenten zu laden, hat eine Prompt-Injection-Fläche. Setze `VDL_MCP_DOMAIN_ALLOWLIST` (z. B. `youtube.com,instagram.com`), um das einzugrenzen.
 - Nur für Inhalte, die dir gehören oder für die du die Rechte/Erlaubnis hast — es gilt derselbe [Haftungsausschluss](https://github.com/sphings79/vdl#haftungsausschluss) wie bei vdl.
 
+---
+
+## ☕ Unterstützen
+
+Diese Tools entstehen in meiner Freizeit und bleiben kostenlos, quelloffen und cloudfrei.
+Wenn dir eines davon einen Nachmittag gespart hat, kannst du mir [einen Kaffee ausgeben](https://buymeacoffee.com/sphings).
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-sphings-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/sphings)
+
 ## Lizenz
 
 **GNU Affero General Public License v3.0** (AGPL-3.0) — siehe [LICENSE](LICENSE). © 2026 sphings79
